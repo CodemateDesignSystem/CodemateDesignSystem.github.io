@@ -1,0 +1,428 @@
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.codemate-button[data-v-01706dda] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  /*
+  About Color Difference
+  */
+}
+.codemate-button.red[data-v-01706dda] {
+    background-color: #d91e2d;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #ffffff;
+}
+.codemate-button.red[data-v-01706dda]:hover {
+      background-color: #e4616c;
+}
+.codemate-button.white[data-v-01706dda] {
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #313233;
+}
+.codemate-button.white[data-v-01706dda]:hover {
+      background-color: #edf0f5;
+}
+.codemate-button.white-secondary[data-v-01706dda] {
+    background-color: #ffffff;
+    border: 1px solid #313233;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #313233;
+}
+.codemate-button.white-secondary[data-v-01706dda]:hover {
+      background-color: #edf0f5;
+}
+.codemate-button.black[data-v-01706dda] {
+    background-color: #313233;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #ffffff;
+}
+.codemate-button.black[data-v-01706dda]:hover {
+      background-color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.71;
+      color: #313233;
+}
+.codemate-button.black-secondary[data-v-01706dda] {
+    background-color: #313233;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #ffffff;
+}
+.codemate-button.black-secondary[data-v-01706dda]:hover {
+      background-color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.71;
+      color: #313233;
+}
+.codemate-button.round[data-v-01706dda] {
+    border-radius: 24px;
+}
+
+
+@charset "UTF-8";
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.codemate-card[data-v-1461c97c] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 32px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  /**
+  인자로 "d", "rd", "ru" 를 받습니다.
+  d = down
+  rd = right down
+  ru = right up
+
+  사용법 
+  @include shadow("d");
+  */
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.codemate-card.down[data-v-1461c97c] {
+    /**
+  인자로 "d", "rd", "ru" 를 받습니다.
+  d = down
+  rd = right down
+  ru = right up
+
+  사용법 
+  @include shadow("d");
+  */
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.codemate-card.right-down[data-v-1461c97c] {
+    /**
+  인자로 "d", "rd", "ru" 를 받습니다.
+  d = down
+  rd = right down
+  ru = right up
+
+  사용법 
+  @include shadow("d");
+  */
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 1px 3px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 1px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.codemate-card.right-up[data-v-1461c97c] {
+    /**
+  인자로 "d", "rd", "ru" 를 받습니다.
+  d = down
+  rd = right down
+  ru = right up
+
+  사용법 
+  @include shadow("d");
+  */
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 3px 0 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 3px 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.codemate-heading[data-v-4e98c675] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin: 0px;
+}
+.codemate-heading.level-0[data-v-4e98c675] {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #313233;
+}
+.codemate-heading.level-1[data-v-4e98c675] {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #313233;
+}
+.codemate-heading.level-2[data-v-4e98c675] {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #313233;
+}
+.codemate-heading.level-3[data-v-4e98c675] {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #313233;
+}
+.codemate-heading.level-4[data-v-4e98c675] {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #313233;
+}
+
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.label[data-v-7b75ce72] {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #313233;
+  margin-bottom: 8px;
+}
+.error-message[data-v-7b75ce72] {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #a6000e;
+  margin-top: 8px;
+}
+input[data-v-7b75ce72] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px #dadce0 solid;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #313233;
+}
+input[data-v-7b75ce72]::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+input[data-v-7b75ce72]:-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+input[data-v-7b75ce72]::-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+input[data-v-7b75ce72]::placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+input[data-v-7b75ce72]:focus {
+    border: 1px #a1a2a6 solid;
+    outline: none;
+}
+input.false[data-v-7b75ce72] {
+    border: solid 1px #a6000e;
+}
+
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.profile-image[data-v-5dd50554] {
+  border-radius: 50%;
+  /**
+  About Size
+  */
+}
+.profile-image.empty[data-v-5dd50554] {
+    background-color: #ffffff;
+    border: solid 1px #dadce0;
+}
+.profile-image.big[data-v-5dd50554] {
+    height: 96px;
+    width: 96px;
+}
+.profile-image.medium[data-v-5dd50554] {
+    height: 72px;
+    width: 72px;
+}
+.profile-image.small[data-v-5dd50554] {
+    height: 40px;
+    width: 40px;
+}
+
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.codemate-tag[data-v-6d23bea8] {
+  padding: 0 16px 0 16px;
+  background-color: #edf0f5;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #313233;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+/**
+Codemate Design System : Color
+*/
+/**
+Codemate Design System : Shadow
+*/
+/**
+Codemate Design System : Text Style Typography
+*/
+.label[data-v-3b89dabd] {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #313233;
+  margin-bottom: 8px;
+}
+.error-message[data-v-3b89dabd] {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #a6000e;
+  margin-top: 8px;
+}
+textarea[data-v-3b89dabd] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px #dadce0 solid;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #313233;
+}
+textarea[data-v-3b89dabd]::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+textarea[data-v-3b89dabd]:-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+textarea[data-v-3b89dabd]::-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+textarea[data-v-3b89dabd]::placeholder {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #a1a2a6;
+}
+textarea[data-v-3b89dabd]:focus {
+    border: 1px #a1a2a6 solid;
+    outline: none;
+}
+textarea.false[data-v-3b89dabd] {
+    border: solid 1px #a6000e;
+}
+

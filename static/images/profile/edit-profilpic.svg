@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>codemate/myaccount/button/edit-profilpic</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile/pic-김코드" transform="translate(-69.000000, -69.000000)">
+            <g id="codemate/myaccount/button/edit-profilpic" transform="translate(70.000000, 70.000000)">
+                <circle id="Oval-11-Copy" stroke="#CCCCCC" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+                <g id="codemate/myaccount/icon/myaccount-modify" transform="translate(9.000000, 9.000000)" fill="#CCCCCC">
+                    <g id="Shape">
+                        <polygon fill-rule="nonzero" points="0 12 3 11.6895802 0.310566229 9"></polygon>
+                        <path d="M7.24722169,1.87917989 L10.1208853,4.75284 L3.87371765,11 L1,8.12633989 L7.24722169,1.87917989 Z M11.6053892,3.26828397 C12.1314289,2.74224487 12.131645,1.8893355 11.6053892,1.36313434 L10.6368235,0.394569842 C10.1107837,-0.131577299 9.25776527,-0.13146926 8.7316715,0.394569842 L7.79465307,1.33164114 L10.6684247,4.20524723 L11.6053892,3.26828397 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
